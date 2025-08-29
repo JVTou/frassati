@@ -1,7 +1,10 @@
 ---
-title: Most AWE.SOME Features
+title: Schedule of Events
 afterTitle: ...and so much more!
 type: features
 ---
 
-Pellentesque ullamcorper fringilla odio at pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla mattis erat dui, ut tempor lectus dictum id.
+Frassati holds meetings once a week, and hosts larger events for the parish several times a year. Coming up:
+<br>
+First Friday Holy Hour 9/5
+Meeting 9/9

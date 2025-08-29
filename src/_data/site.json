@@ -1,16 +1,12 @@
 {
-  "author": "AWE.SOME",
-  "description": "AWE.SOMEty - A Landing Page Template for 11ty",
-  "title": "AWE.SOMEty - A Landing Page Template for 11ty",
+  "author": "Junipero Verbeke",
+  "description": "Uniting students and young professionals with purpose towards Christ",
+  "title": "Frassati",
   "language": "en",
   "social": [
     {
-      "title": "Mastodon",
-      "url": "https://mastodon.social/#"
-    },
-    {
-      "title": "LinkedIn",
-      "url": "https://linkedin.com/company/#"
+      "title": "Instagram",
+      "url": "https://www.instagram.com/frassati.be/"
     }
   ]
 }
