@@ -1,0 +1,27 @@
+{% for item in collections.sections %}
+  {% if item.data.type === 'trivia' %}
+    <section id="trivia" class="w-full flex flex-col justify-center items-center bg-gray-900">
+      <div class="self-center text-center w-full xl:w-2/3 px-4 sm:px-0 py-16">
+        <h2 class="font-bold tracking-widest text-gray-200 text-4xl mb-6">{{ item.data.title }}</h2>
+        <div class="font-light text-gray-400 text-xl mb-10">
+          {{ item.templateContent | safe }}
+        </div>
+        {% if item.data.formUrl %}
+          <div class="w-full max-w-5xl mx-auto">
+            <iframe
+              src="{{ item.data.formUrl }}"
+              width="100%"
+              style="height: {{ item.data.formHeight or '2000px' }};"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              class="w-full bg-white"
+            >Loading…</iframe>
+          </div>
+        {% endif %}
+      </div>
+    </section>
+  {% endif %}
+{% endfor %}
+
+
