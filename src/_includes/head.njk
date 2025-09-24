@@ -32,3 +32,14 @@
   <!-- include Normalize for regular text pages -->
   <link rel="stylesheet"  href="{{ env.baseUrl }}css/normalize.min.css">
 {% endif %}
+{# Google Analytics (GA4) - load only in non-dev and when ID present #}
+{% if not env.isDev and env.analyticsId %}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ env.analyticsId }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ env.analyticsId }}');
+  </script>
+{% endif %}
