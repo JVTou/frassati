@@ -6,5 +6,4 @@ export default {
     ? '/11ty-landing-page/'
     : '/',
   isDev,
-  analyticsId: process.env.GA_MEASUREMENT_ID || ''
-}
+  analyticsId: 'G-Z2CRM0WHQ4'}
