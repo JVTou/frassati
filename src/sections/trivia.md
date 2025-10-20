@@ -1,7 +1,7 @@
 ---
 title: Trivia Night Registration
 type: trivia
-formUrl: "https://docs.google.com/forms/de/1FAIpQLSfAWFOv2bnBI4IGbM5Z1c6dSK8RDGFGClAmPrCjLgzvXXhiWw/viewform?embedded=true"
+formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfAWFOv2bnBI4IGbM5Z1c6dSK8RDGFGClAmPrCjLgzvXXhiWw/viewform?usp=header"
 formHeight: "1000px"
 ---
 
